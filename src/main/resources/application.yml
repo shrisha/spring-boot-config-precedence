@@ -1,0 +1,13 @@
+spring:
+  profiles: default
+
+someSection:
+  prop1: 100
+  prop2: ABC
+---
+spring:
+  profiles: test
+
+someSection:
+  prop1: 200
+  prop2: DEF
