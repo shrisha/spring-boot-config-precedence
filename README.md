@@ -11,5 +11,5 @@ Description of Issue
 ------------------
 There are two profiles that are loaded - default and test.
 
-Running JAVA 7, the test passes with prop1's value set to 300
-Running JAVA 8, the test fails with prop1's value set to 200 (it's as if the application-test.properties wasn't loaded)
+* Running JAVA 7, the test passes with prop1's value set to 300
+* Running JAVA 8, the test fails with prop1's value set to 200 (it's as if the application-test.properties wasn't loaded)
