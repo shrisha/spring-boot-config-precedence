@@ -20,8 +20,11 @@ when you run the sample app against 1.7 and then 1.8, you'll notice the followin
 
 ## Java 1.7
 ```2015-10-07 21:07:31.783 DEBUG 1453 --- [           main] o.s.core.env.StandardEnvironment         : Adding [applicationConfig: [classpath:/application-test.properties]] PropertySource with search precedence immediately lower than [applicationConfigurationProperties]```
+
 ```2015-10-07 21:07:31.784 DEBUG 1453 --- [           main] o.s.core.env.StandardEnvironment         : Adding [applicationConfig: [classpath:/application.yml]#test] PropertySource with search precedence immediately lower than [applicationConfig: [classpath:/application-test.properties]]```
+
 ```2015-10-07 21:07:31.784 DEBUG 1453 --- [           main] o.s.core.env.StandardEnvironment         : Adding [applicationConfig: [classpath:/application.yml]#default] PropertySource with search precedence immediately lower than [applicationConfig: [classpath:/application.yml]#test]```
+
 ```2015-10-07 21:07:31.784 DEBUG 1453 --- [           main] o.s.core.env.StandardEnvironment         : Adding [applicationConfig: [classpath:/application.yml]] PropertySource with search precedence immediately lower than [applicationConfig: [classpath:/application.yml]#default]```
 
 
